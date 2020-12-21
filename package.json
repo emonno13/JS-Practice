@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"start": "node src/Array/arrayLogic.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"p": "prettier --write 'src/**/*.js'",
+		"p:w": "onchange 'src/**/*.js' -- prettier --write {{changed}}",
+		"lint": "eslint"
+	},
+	"devDependencies": {
+		"prettier": "^2.0.5"
+	},
+	"dependencies": {
+		"perf_hooks": "^0.0.1"
+	}
+}
